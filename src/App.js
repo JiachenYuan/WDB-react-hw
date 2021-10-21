@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Feed from './Components/Feed'
 // Import Bootstrap Navigation Bar HERE 
 // Remember that it should be used as a React Component
+import NavigBar from './Components/Navigbar'
 
 
 
@@ -14,6 +15,7 @@ function App() {
       {/* Your Navigation Bar that you imported as component should be here, look at 
       how the Feed Component is imported as a reference point.
       Remember that React Components must start with a capital letter.*/}
+      <NavigBar></NavigBar>
       <h1>Blockstagram</h1>
       <Feed></Feed>
     </div>
